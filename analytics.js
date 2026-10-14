@@ -1,7 +1,7 @@
 /* CORE TRADE: consent-first Google Analytics 4. Set GA4 measurement ID when provisioned. */
 (() => {
   'use strict';
-  const GA4_ID = ''; // e.g. G-XXXXXXXXXX — insert the real ID, never a placeholder.
+  const GA4_ID = 'G-8J1249GKYP'; // e.g. G-XXXXXXXXXX — insert the real ID, never a placeholder.
   const KEY = 'coretrade.analytics-consent.v1';
   const valid = /^G-[A-Z0-9]{6,20}$/.test(GA4_ID);
   let choice = null;
