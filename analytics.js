@@ -27,6 +27,7 @@
     if (value === 'yes') enable();
   }
   function showBanner() {
+    if (!valid) return; // No consent prompt until GA4 is actually configured.
     if (choice === 'yes') {enable();return;}
     if (choice === 'no') return;
     const banner = document.createElement('aside');
